@@ -15,6 +15,7 @@
 		F35E11A11AD7AD2900DB2CD1 /* ControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E119E1AD7AD2900DB2CD1 /* ControllerVC.m */; };
 		F35E11A21AD7AD2900DB2CD1 /* DragTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E11A01AD7AD2900DB2CD1 /* DragTableView.m */; };
 		F35E11A41AD7AD4000DB2CD1 /* class-dump in Resources */ = {isa = PBXBuildFile; fileRef = F35E11A31AD7AD4000DB2CD1 /* class-dump */; };
+		F35E11A61AD7B66B00DB2CD1 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = F35E11A51AD7B66B00DB2CD1 /* screenshot.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		F35E119F1AD7AD2900DB2CD1 /* DragTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragTableView.h; sourceTree = "<group>"; };
 		F35E11A01AD7AD2900DB2CD1 /* DragTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragTableView.m; sourceTree = "<group>"; };
 		F35E11A31AD7AD4000DB2CD1 /* class-dump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "class-dump"; sourceTree = "<group>"; };
+		F35E11A51AD7B66B00DB2CD1 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		F35E117D1AD7AD0700DB2CD1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F35E11A51AD7B66B00DB2CD1 /* screenshot.png */,
 				F35E117E1AD7AD0700DB2CD1 /* Info.plist */,
 				F35E11821AD7AD0700DB2CD1 /* main.m */,
 			);
@@ -207,6 +210,7 @@
 				F35E11A41AD7AD4000DB2CD1 /* class-dump in Resources */,
 				F35E11851AD7AD0700DB2CD1 /* Images.xcassets in Resources */,
 				F35E11881AD7AD0700DB2CD1 /* MainMenu.xib in Resources */,
+				F35E11A61AD7B66B00DB2CD1 /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				F35E11991AD7AD0700DB2CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35E119A1AD7AD0700DB2CD1 /* Build configuration list for PBXNativeTarget "ObjCHeaderExtractorTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				F35E119C1AD7AD0700DB2CD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
