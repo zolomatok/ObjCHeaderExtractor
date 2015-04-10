@@ -7,16 +7,19 @@
 //
 
 #import "AppDelegate.h"
+#import "ControllerVC.h"
 
 @interface AppDelegate ()
-
 @property (weak) IBOutlet NSWindow *window;
+@property ControllerVC *controllerVC;
 @end
 
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    self.controllerVC = [[ControllerVC alloc] initWithNibName:nil bundle:nil];
+    self.controllerVC.view.frame = ((NSView*)self.window.contentView).bounds;
+    [self.window.contentView addSubview:self.controllerVC.view];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {

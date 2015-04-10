@@ -12,6 +12,9 @@
 		F35E11851AD7AD0700DB2CD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35E11841AD7AD0700DB2CD1 /* Images.xcassets */; };
 		F35E11881AD7AD0700DB2CD1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = F35E11861AD7AD0700DB2CD1 /* MainMenu.xib */; };
 		F35E11941AD7AD0700DB2CD1 /* ObjCHeaderExtractorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E11931AD7AD0700DB2CD1 /* ObjCHeaderExtractorTests.m */; };
+		F35E11A11AD7AD2900DB2CD1 /* ControllerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E119E1AD7AD2900DB2CD1 /* ControllerVC.m */; };
+		F35E11A21AD7AD2900DB2CD1 /* DragTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = F35E11A01AD7AD2900DB2CD1 /* DragTableView.m */; };
+		F35E11A41AD7AD4000DB2CD1 /* class-dump in Resources */ = {isa = PBXBuildFile; fileRef = F35E11A31AD7AD4000DB2CD1 /* class-dump */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 		F35E118D1AD7AD0700DB2CD1 /* ObjCHeaderExtractorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCHeaderExtractorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35E11921AD7AD0700DB2CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35E11931AD7AD0700DB2CD1 /* ObjCHeaderExtractorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCHeaderExtractorTests.m; sourceTree = "<group>"; };
+		F35E119D1AD7AD2900DB2CD1 /* ControllerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ControllerVC.h; sourceTree = "<group>"; };
+		F35E119E1AD7AD2900DB2CD1 /* ControllerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ControllerVC.m; sourceTree = "<group>"; };
+		F35E119F1AD7AD2900DB2CD1 /* DragTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DragTableView.h; sourceTree = "<group>"; };
+		F35E11A01AD7AD2900DB2CD1 /* DragTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DragTableView.m; sourceTree = "<group>"; };
+		F35E11A31AD7AD4000DB2CD1 /* class-dump */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "class-dump"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,13 @@
 			children = (
 				F35E117F1AD7AD0700DB2CD1 /* AppDelegate.h */,
 				F35E11801AD7AD0700DB2CD1 /* AppDelegate.m */,
+				F35E119D1AD7AD2900DB2CD1 /* ControllerVC.h */,
+				F35E119E1AD7AD2900DB2CD1 /* ControllerVC.m */,
+				F35E119F1AD7AD2900DB2CD1 /* DragTableView.h */,
+				F35E11A01AD7AD2900DB2CD1 /* DragTableView.m */,
 				F35E11841AD7AD0700DB2CD1 /* Images.xcassets */,
 				F35E11861AD7AD0700DB2CD1 /* MainMenu.xib */,
+				F35E11A31AD7AD4000DB2CD1 /* class-dump */,
 				F35E117D1AD7AD0700DB2CD1 /* Supporting Files */,
 			);
 			path = ObjCHeaderExtractor;
@@ -191,6 +204,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F35E11A41AD7AD4000DB2CD1 /* class-dump in Resources */,
 				F35E11851AD7AD0700DB2CD1 /* Images.xcassets in Resources */,
 				F35E11881AD7AD0700DB2CD1 /* MainMenu.xib in Resources */,
 			);
@@ -211,7 +225,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F35E11831AD7AD0700DB2CD1 /* main.m in Sources */,
+				F35E11A11AD7AD2900DB2CD1 /* ControllerVC.m in Sources */,
 				F35E11811AD7AD0700DB2CD1 /* AppDelegate.m in Sources */,
+				F35E11A21AD7AD2900DB2CD1 /* DragTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
